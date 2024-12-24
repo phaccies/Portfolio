@@ -1,10 +1,12 @@
-
 .typing-cred{
 
+    display: flex;
     font-size: 9px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     text-decoration: none;
+    margin-right: 245px; /*sloppy fix tbh */
+
 
 }
 
@@ -41,6 +43,7 @@
     font-size: 25px;
     padding-bottom: 10px;
 }
+
 
 .c-langs {
     /*background-color: blue; */
