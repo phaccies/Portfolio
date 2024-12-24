@@ -36,33 +36,39 @@ function Experience(){
             Image by storyset on Freepik</a>
         </div>
         <div className='exp-content'>
-        <h3 className='code-header'>Coding Languages:</h3>
+        <h3 className='code-header'>Coding Languages</h3>
         <div className='c-langs'>
 
                 <button title='C'> <img  className='c-imgs' src={C_lang}  /> </button>
                 <button title='C#'> <img  className='c-imgs2' src={CSharp_lang}  /> </button>
-                <button title='HTML'> <FaHtml5 /> </button>
+                <button title='Java'> <FaJava /> </button>
+                
+        </div>
+        <h3 className='code-header'>Web Development</h3>
+        <div className='c-langs'>
+        <button title='HTML'> <FaHtml5 /> </button>
                 <button title='CSS'> <IoLogoCss3 /> </button>
                 <button title='React'> <FaReact /> </button>
                 <button title='TypeScript'> <SiTypescript /> </button>
                 <button title='JavaScript'> <FaJsSquare /> </button>
-                <button title='Java'> <FaJava /> </button>
-                <button title='Lua'> <SiLua /> </button>
-                <button title='Unity'> <FaUnity /> </button>
-                <button title='Visual Studio Code'> <BiLogoVisualStudio /> </button>
                 <button title='Node.js'> <FaNodeJs /> </button>
-                <button title='Git'> <FaGitAlt /> </button>
-                <button title='Postman'> <SiPostman /> </button>
-                <button title='MongoDB'> <BiLogoMongodb /> </button>
-                <button title='SQL'> <AiOutlineConsoleSql /> </button>
                 <button title='PHP'>  <FaPhp/>  </button>
-                
+                <button title='SQL'> <AiOutlineConsoleSql /> </button>
+                <button title='MongoDB'> <BiLogoMongodb /> </button>
         </div>
-        <h3 className='code-header'>Currently Learning:</h3>
-        <div className='curr-learning'>
-        <button title='Flutter'> <FaFlutter /> </button>
-        <button title='Dart'> <FaDartLang /> </button>
-        <button title='Python'> <FaPython /> </button>
+
+        <h3 className='code-header'>Game Development</h3>
+        <div className='c-langs'>
+            <button title='C#'> <img  className='c-imgs2' src={CSharp_lang}  /> </button>
+            <button title='Unity'> <FaUnity /> </button>
+            <button title='Lua'> <SiLua /> </button>
+        </div>
+
+        <h3 className='code-header'>Tools</h3>
+        <div className='c-langs'>
+            <button title='Visual Studio Code'> <BiLogoVisualStudio /> </button>
+            <button title='Git'> <FaGitAlt /> </button>
+            <button title='Postman'> <SiPostman /> </button>
         </div>
 
         <h3 className='code-header'>Spoken Languages:</h3>
