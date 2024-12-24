@@ -17,7 +17,7 @@ function Card()
             <div className='buttons-container'>
                <a target='_blank' href='https://github.com/phaccies' ><button title='GitHub'> <FaGithub /> </button> </a>
                <a target='_blank' href='https://www.linkedin.com/in/veronica-vargas-2687a1327/'> <button title='LinkedIn'> <CiLinkedin /> </button> </a>
-               <a target='_blank' href='/'><button title='Resume'> <IoDocumentTextOutline /> </button></a>
+               <a target='_blank' href='/Veronica_Vargas Resume.pdf'><button title='Resume'> <IoDocumentTextOutline /> </button></a>
             </div>
         </div>
         </div>
