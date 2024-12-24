@@ -1,0 +1,96 @@
+
+.about-title{
+    display: flex;
+    justify-content: center; /* fyi this does the actual centering pretty much lol */
+    align-items: center;
+    padding-bottom: 45px;
+    padding-top: 115px;
+}
+
+
+.about-container {
+    display: flex;
+    background: linear-gradient(135deg, rgb(61, 0, 72), rgb(56, 59, 236));
+    /*background: linear-gradient(135deg, rgb(0, 77, 118), blueviolet);*/
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0px 0px 20px rgba(198, 154, 244, 0.795);
+    
+}
+
+.about-content {
+    
+    color: white;
+    line-height: 1.6;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+
+.about-content h3 {
+    font-size: 20px;
+    color: lightblue;
+    margin-bottom: 10px;
+}
+
+.code-img{
+    padding-top: 100px; /* push pic further down to center it in container */
+    width: 500px; /*size of pic*/
+    height: 500px;
+}
+
+
+.about-text{
+    font-size: 12px;
+}
+
+.image-container {
+    position: relative; 
+    display: inline-block; 
+    width: fit-content; 
+}
+
+.img-attribute{
+    position: absolute;
+    bottom: 5px; 
+    right: 10px; 
+    font-size: 9px; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 2px 5px; 
+    border-radius: 3px; 
+    text-decoration: none;
+    transform: translateX(-30%);
+    bottom: 175px;
+}
+
+.img-attribute:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/*
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .code-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+}
+*/

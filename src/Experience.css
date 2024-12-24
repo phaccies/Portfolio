@@ -1,0 +1,106 @@
+
+.typing-cred{
+
+    font-size: 9px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+
+}
+
+.typing-cred:hover{
+    text-decoration: underline;
+}
+
+.experience-title{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+
+.typing-img{
+    width: 500px;
+    height: 500px;
+}
+
+.exp-container{
+    display: flex;
+    background: linear-gradient(135deg, rgb(5, 132, 0), rgb(191, 244, 180));
+    /*background: linear-gradient(135deg, rgb(0, 77, 118), blueviolet);*/
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0px 0px 20px rgba(141, 250, 152, 0.795);
+}
+
+.code-header{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.c-langs {
+    /*background-color: blue; */
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.c-langs button {
+    /*padding-top: 50px;*/
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 3.5rem; 
+    color: white; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.c-langs button:hover {
+    transform: scale(1.2); 
+    color: rgb(255, 223, 92); 
+}
+
+.c-imgs{
+    width: 50px;
+    height: 55px;
+    padding-right: 10px;
+}
+
+.c-imgs2{
+    width: 50px;
+    height: 55px;
+}
+
+.curr-learning button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 3.5rem; 
+    color: white; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.curr-learning button:hover{
+    transform: scale(1.2); 
+    color: rgb(255, 223, 92); 
+}
+
+.spoken-langs button{
+    font-family: 'Press Start 2P';
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem; 
+    color: white; 
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.spoken-langs button:hover{
+    transform: scale(1.2); 
+    color: rgb(255, 223, 92);;
+}
+

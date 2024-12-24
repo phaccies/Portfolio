@@ -1,0 +1,130 @@
+
+.intro-wrapper{
+  /*  margin-top: 115px; */
+    padding-top: 115px;
+    text-align: center;
+}
+
+.type-container{
+    display: inline-block;
+}
+
+.type-text{
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(24), cursor.4s step-end infinite alternate;
+  /* test animation  animation: typing3 4s steps(24) infinite, cursor 0.5s step-end infinite alternate; */
+    /*steps() needs to == # of chars in text, including whitespaces!! */
+}
+
+@keyframes cursor{
+    50%{ border-color: transparent; }
+}
+
+@keyframes typing{
+    from{width: 0;}
+}
+
+
+@keyframes typing3{
+    0% {
+        width: 0; /* Start with no text */
+    }
+    50% {
+        width: 100%; /* Fully typed */
+    }
+    75% {
+        width: 100%; /* Pause at full width */
+    }
+    100% {
+        width: 0; /* Delete the text */
+    }
+}
+
+
+.static-text {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+   /* text-shadow: 0 0 10px #0ef; */
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 40px; /* Match the height of `.roles` for alignment */
+}
+
+.roles-container {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center; /* Aligns text and list vertically */
+    gap: 0px; /* Adds space between "I am a" and the list */
+    overflow: hidden;
+}
+
+
+
+.roles-container .roles{
+    height: 40px;
+   /* line-height: 40px; */
+    overflow: hidden;
+}  
+
+
+.roles {
+    display: inline-block;
+    height: 40px; /* Match container height */
+    position: relative; /* Allow positioning of the animated text */
+    text-align: left;
+}
+
+.roles li{
+    position: relative;
+    top: 0; /* makes list go up */
+    font-size: 30px;
+    list-style: none;
+    color: rgb(69, 181, 255);
+    padding: 0 20px;
+    /*text-shadow: 0 0 10px #0ef; */
+    white-space: nowrap;
+    overflow: hidden; /* Ensures only visible text is shown */
+    animation: slide 16s steps(4) infinite; /* Slide-only animation */
+
+    
+}
+
+@keyframes slide{
+    100%{
+        top: -160px;
+    }
+}
+
+.roles li span{
+    display: inline-block;
+    border-right: 2px solid; /* Cursor effect */
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing3 4s steps(25) infinite, cursor 0.5s step-end infinite alternate;
+
+}
+
+/*
+.roles li span::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 45px;
+  /*  background: #1b2735;  
+    border-left: 2px solid #0ef;
+   /* animation: typing2 2s steps(25) infinite alternate; 
+  
+} 
+
+@keyframes typing2{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+} */

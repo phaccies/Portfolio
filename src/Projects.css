@@ -1,0 +1,13 @@
+
+.project-cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next row */
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 20px; /* Adds space between cards */
+    background: linear-gradient(135deg, rgb(149, 220, 238), rgb(246, 181, 178));
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px; /* Keeps the container width manageable */
+    box-shadow: 0px 0px 20px rgba(162, 217, 252, 0.795);
+}
