@@ -15,7 +15,7 @@ function CMCard()
             <p className='CMcard-text'>Contact manager that makes use of basic CRUD operations. 
                 I used HTML/CSS to design the web app and JavaScript to write functions and connect the APIs.</p>
             <div className='buttons-container'>
-               <a target="_blank" href='https://github.com/dewlb/SP1'><button title='GitHub'> <FaGithub /> </button> </a>
+               <a target="_blank" href='https://github.com/phaccies/TTYL-Contact-Manager'><button title='GitHub'> <FaGithub /> </button> </a>
             </div>
         </div>
         </div>
