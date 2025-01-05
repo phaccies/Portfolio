@@ -41,6 +41,7 @@ function Experience(){
 
                 <button title='C'> <img  className='c-imgs' src={C_lang}  /> </button>
                 <button title='C#'> <img  className='c-imgs2' src={CSharp_lang}  /> </button>
+                <button title = 'Python'> <FaPython /> </button>
                 <button title='Java'> <FaJava /> </button>
                 
         </div>
